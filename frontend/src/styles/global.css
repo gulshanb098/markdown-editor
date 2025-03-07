@@ -1,0 +1,64 @@
+.editor-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.editor-textarea {
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.editor-preview {
+  width: 50%;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #f9f9f9;
+  overflow: auto;
+}
+
+.editor-preview h1,
+.editor-preview h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.editor-preview blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 10px;
+  color: #666;
+}
+
+.editor-preview pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.editor-preview code {
+  background: #f4f4f4;
+  color: black;
+}
+
+.editor-preview table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.editor-preview th,
+.editor-preview td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.editor-preview ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}

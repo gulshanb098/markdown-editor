@@ -1,0 +1,62 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules & package manager caches
+node_modules/
+.pnp/
+.pnp.js
+.pnpm-store/
+
+# Build artifacts
+dist/
+build/
+.out/
+.temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Local environment & secrets
+.env
+.env.*.local
+.envrc
+.npmrc
+.pnpmrc
+
+# Debugging files
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing & coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Miscellaneous system files
+Thumbs.db
+ehthumbs.db
+*.iml
+
+# Temporary files
+tmp/
+temp/
+cache/
